@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR" className={`${dmSans.variable} ${playfair.variable} bg-background`}>
+    <html lang="pt-BR" data-scroll-behavior="smooth" className={`${dmSans.variable} ${playfair.variable} bg-background`}>
       <body className="font-sans antialiased min-h-screen">
         <CartProvider>
           {children}
